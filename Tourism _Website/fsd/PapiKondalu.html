@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+        background-color: pink;
+    }
+
+    span img {
+        border-radius: 25px;
+        box-shadow: 5px 5px 10px black;
+    }
+
+    .side {
+        margin-left: 55%;
+        margin-top: -30%;
+        font-size: 20px;
+
+    }
+
+    .b1 {
+        font-size: 20px;
+        margin-top: 25px;
+    }
+
+    .container {
+        width: 45%;
+        height: 70%;
+        background-color: rgba(126, 144, 202, 0.72);
+        position: absolute;
+        top: 70%;
+        margin-top: 37%;
+        margin-left: 53%;
+        margin-right: 0%;
+        box-shadow: 1px 2px 10px black;
+        border-radius: 20px;
+        /* box-shadow: (horizontal(left-right))(vertical(top-right))(amount of blur)(color); */
+        /* top: 50%;
+        left: 50%;
+        bottom: 30%;
+        transform: translate(-50%, -50%); */
+    }
+
+    .container .int1 {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        /* left: 50%;
+        top: 50%; */
+        margin-top: 0%;
+        /* margin-left: 100%; */
+        color: black;
+        border-radius: 20px;
+        box-shadow: 1px 2px 10px black;
+    }
+
+
+    .container .int1 img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        margin-top: 0%;
+        margin-left: 0%;
+        border-radius: 20px;
+        /* animation: zoom-out 3s linear infinite; */
+
+    }
+
+    .container .int2 img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        margin-top: 0%;
+        border-radius: 20px;
+        /* margin-left: 50%; */
+        /* animation: zoom-out 3s linear infinite; */
+
+    }
+
+    .container .int3 img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        margin-top: 0%;
+        border-radius: 20px;
+        /* margin-left: 50%; */
+        /* animation: zoom-out 3s linear infinite; */
+
+    }
+
+    .container .int4 img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        margin-top: 0%;
+        border-radius: 20px;
+        /* margin-left: 50%; */
+        /* animation: zoom-out 3s linear infinite; */
+
+    }
+
+    .container .res1 img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        margin-top: 0%;
+        border-radius: 20px;
+        /* margin-left: 50%; */
+        /* animation: zoom-out 3s linear infinite; */
+
+    }
+
+    .container .res2 img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        margin-top: 0%;
+        border-radius: 20px;
+        /* margin-left: 50%; */
+        /* animation: zoom-out 3s linear infinite; */
+
+    }
+
+    .container .int {
+        animation: slide1 13s linear infinite;
+    }
+
+
+    .container .int1 {
+        animation: slide2 13s linear infinite;
+    }
+
+    .container .int2 {
+        animation: slide3 13s linear infinite;
+    }
+
+    .container .int3 {
+        animation: slide4 13s linear infinite;
+    }
+
+    .container .int4 {
+        animation: slide5 13s linear infinite;
+    }
+
+    .container .res1 {
+        animation: slide6 13s linear infinite;
+    }
+
+    .container .res2 {
+        animation: slide7 13s linear infinite;
+    }
+
+    @keyframes slide1 {
+        0% {
+            visibility: visible;
+        }
+
+        16.66% {
+            visibility: hidden;
+        }
+
+        33.32% {
+            visibility: hidden;
+        }
+
+        49.98% {
+            visibility: hidden;
+        }
+
+        66.64% {
+            visibility: hidden;
+        }
+
+        83.32% {
+            visibility: hidden;
+        }
+
+        100% {
+            visibility: hidden;
+        }
+    }
+
+    @keyframes slide2 {
+        0% {
+            visibility: hidden;
+        }
+
+        16.66% {
+            visibility: visible;
+        }
+
+        33.32% {
+            visibility: hidden;
+        }
+
+        49.98% {
+            visibility: hidden;
+        }
+
+        66.64% {
+            visibility: hidden;
+        }
+
+        83.32% {
+            visibility: hidden;
+        }
+
+        100% {
+            visibility: hidden;
+        }
+    }
+
+    @keyframes slide3 {
+        0% {
+            visibility: hidden;
+        }
+
+        16.66% {
+            visibility: hidden;
+        }
+
+        33.32% {
+            visibility: visible;
+        }
+
+        49.98% {
+            visibility: hidden;
+        }
+
+        66.64% {
+            visibility: hidden;
+        }
+
+        83.32% {
+            visibility: hidden;
+        }
+
+        100% {
+            visibility: hidden;
+        }
+    }
+
+    @keyframes slide4 {
+        0% {
+            visibility: hidden;
+        }
+
+        16.66% {
+            visibility: hidden;
+        }
+
+        33.32% {
+            visibility: hidden;
+        }
+
+        49.98% {
+            visibility: visible;
+        }
+
+        66.64% {
+            visibility: hidden;
+        }
+
+        83.32% {
+            visibility: hidden;
+        }
+
+        100% {
+            visibility: hidden;
+        }
+    }
+
+    @keyframes slide5 {
+        0% {
+            visibility: hidden;
+        }
+
+        16.66% {
+            visibility: hidden;
+        }
+
+        33.32% {
+            visibility: hidden;
+        }
+
+        49.98% {
+            visibility: hidden;
+        }
+
+        66.64% {
+            visibility: visible;
+        }
+
+        83.32% {
+            visibility: hidden;
+        }
+
+        100% {
+            visibility: hidden;
+        }
+    }
+
+    @keyframes slide6 {
+        0% {
+            visibility: hidden;
+        }
+
+        16.66% {
+            visibility: hidden;
+        }
+
+        33.32% {
+            visibility: hidden;
+        }
+
+        49.98% {
+            visibility: hidden;
+        }
+
+        66.64% {
+            visibility: hidden;
+        }
+
+        83.32% {
+            visibility: visible;
+        }
+
+        100% {
+            visibility: hidden;
+        }
+    }
+
+    @keyframes slide7 {
+        0% {
+            visibility: hidden;
+        }
+
+        16.66% {
+            visibility: hidden;
+        }
+
+        33.32% {
+            visibility: hidden;
+        }
+
+        49.98% {
+            visibility: hidden;
+        }
+
+        66.64% {
+            visibility: hidden;
+        }
+
+        83.32% {
+            visibility: hidden;
+        }
+
+        100% {
+            visibility: visible;
+        }
+    }
+
+    .b2 {
+        margin-right: 50%;
+        margin-top: 1%;
+        font-size: 20px;
+    }
+</style>
+
+<body>
+    <center>
+        <h1>Papi Kondalu</h1>
+    </center>
+    <br>
+    <span>
+        <img src="img/p.jpg" alt="" style="width:50% ;">
+    </span>
+    <p class="side">
+        <b>Papikondalu Tourism</b> <br><br>
+        Papikondalu mountain range runs along the River Godavari (Western Godavari) and is located in Rajahmundry,
+        Andhra Pradesh. Papikondalu is a sheer fest to the eyes in terms of its scenic beauty. As the hills become
+        closer and closer to the visitor, the width of the mighty Godavari becomes narrower. In accordance with this
+        view resembling the middle partition of a woman's hair, it was initially named as 'Papidi' Kondalu- Paidi in
+        Telugu means the middle partition of a woman’s hair. Later, it came to be known as Papikondalu in the local
+        language. The river narrowing, its twists and turns along with the Papi Hills form a breathtaking visual
+        experience. <br>
+
+        Its beauty is often compared to that of Kashmir as the area around the ranges is quaint and bountiful with
+        nature. The ranges also boast of waterfalls at Munivaatnam. <br>
+    <p class="b1">
+        <b> EXPLORE THE GODAVARIWATERS OF PAPIKONDALU</b> <br><br>
+
+        The entrance of Papi kondalu can be seen from Koruturu (West Godavari District).The original name for this hill
+        range was ‘Papidi Kondalu’. Papidi is a rough translation for partition in Telugu. Since this range looks like a
+        well designed partition that splits river Godavari, this name was coined. There is also another idea that the
+        range looks like a partition of a typical Indian Woman’s hair line. In due course, it settled for ‘Papi
+        Kondalu’.Papikondalu Andhra Pradesh – “Papi kondalu” or the “Papi Hills” are series of mountain range that are
+        located Rajahmundry in West Godavari District of Andhra Pradesh. <br>
+
+        Papikondalu Mountain range runs along River Godavari, one of the largest and vivacious rivers in India. The
+        mighty river narrowing and passing with twists and turns along the Papi Hills is every visitor’s delight.
+        Papikondalu mountain range spreads over a vast area, covering about three districts of East Godavari, West
+        Godavari and Khammam Districts.To get the real essence of Papikondalu, one has to go for the boat journey either
+        from Rajahmundry,Bhadachalamr. There are small motor boats with capacity of five including the rider or River
+        Streamers carrying about fifty to sixty people. The journey takes about 8 hours and the adventure begins the
+        moment you step on to the boat. <br>
+
+        The ups and downs of the river water, the drifting sand, the cool breeze, small fish that can be spotted in the
+        clean water and the fresh air from the Papikondalu Hills, give you one of the best experiences to travel.Come
+        any season except summer, these hill ranges offer one of the best places to visit in AP in terms of scenic
+        beauty animals, , bird species, which are found here.The flooding river (especially during rainy season- July to
+        September) gives you a thrilling experience to travel. Sometimes the increased water level in the river makes
+        the boat journey precarious. It is the skill and experience of the local sailors, who makes your journey most
+        memorable. <br>
+
+
+
+
+
+    </p>
+    <div class="container">
+        <div class="int">
+
+        </div>
+        <div class="int1">
+            <img src="img/p1.jpg" alt="">
+        </div>
+
+        <div class=" int2">
+            <img src="img/p2.jpg" alt="">
+        </div>
+
+        <div class="int3">
+            <img src="img/p3.jpg" alt="">
+        </div>
+
+        <div class="int4">
+            <img src="img/p4.jpg" alt="">
+        </div>
+
+        <div class="res1">
+            <img src="img/p5.jpg" alt="">
+        </div>
+
+        <div class="res2">
+            <img src="img/p6.jpg" alt="">
+        </div>
+
+    </div>
+    <p class="b2">
+        <b>Safety measures</b> <br><br>
+        <b>Learn Common Travel Scams</b> <br>
+        Wherever you go in the world, you’ll always find people ready to trick you out of your hard-earned cash. If
+        you’re lucky, they’ll be kinda obvious – but there are plenty of craftier, professional con-artists out there
+        too. <br>
+        <b>Write Down Emergency Info</b><br>
+        If disaster strikes, you might not have time to search for numbers for local police or ambulance services, or
+        directions to the nearest embassy for your country. You may also be too stressed and panicky to think straight.
+        <br>
+        <b>Check The State Department Website</b><br>
+        The U.S. Department of State has a travel advisory page for every country in the world, where it lists all known
+        difficulties and current threats to the safety of visitors. <br>
+
+        However, a big caveat for this one: it’s the State Department’s job to warn you about everything that could go
+        wrong, which is sometimes different to what is likely to go wrong. <br>
+
+        This means their advice is generally on the hyper-cautious side. Factor that in, while you dig up more
+        on-the-ground information. <br>
+
+        But researching travel warnings will give you a general idea of what’s going on in the country you’re visiting,
+        and specific problem areas you may want to avoid. <br>
+
+
+    </p>
+</body>
+
+</html>

@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+        background-color: pink;
+
+    }
+
+    span img {
+        border-radius: 25px;
+        box-shadow: 5px 5px 10px black;
+    }
+
+    .side {
+        margin-left: 55%;
+        margin-top: -25%;
+        font-size: 20px;
+
+    }
+
+    .b1 {
+        font-size: 20px;
+        margin-top: 25px;
+    }
+
+    .container {
+        width: 45%;
+        height: 70%;
+        background-color: rgba(126, 144, 202, 0.72);
+        position: absolute;
+        top: 55%;
+        margin-top: 37%;
+        margin-left: 53%;
+        margin-right: 0%;
+        box-shadow: 1px 2px 10px black;
+        border-radius: 20px;
+        /* box-shadow: (horizontal(left-right))(vertical(top-right))(amount of blur)(color); */
+        /* top: 50%;
+        left: 50%;
+        bottom: 30%;
+        transform: translate(-50%, -50%); */
+    }
+
+    .container .int1 {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        /* left: 50%;
+        top: 50%; */
+        margin-top: 0%;
+        /* margin-left: 100%; */
+        color: black;
+        border-radius: 20px;
+        box-shadow: 1px 2px 10px black;
+    }
+
+
+    .container .int1 img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        margin-top: 0%;
+        margin-left: 0%;
+        border-radius: 20px;
+        /* animation: zoom-out 3s linear infinite; */
+
+    }
+
+    .container .int2 img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        margin-top: 0%;
+        border-radius: 20px;
+        /* margin-left: 50%; */
+        /* animation: zoom-out 3s linear infinite; */
+
+    }
+
+    .container .int3 img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        margin-top: 0%;
+        border-radius: 20px;
+        /* margin-left: 50%; */
+        /* animation: zoom-out 3s linear infinite; */
+
+    }
+
+    .container .int4 img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        margin-top: 0%;
+        border-radius: 20px;
+        /* margin-left: 50%; */
+        /* animation: zoom-out 3s linear infinite; */
+
+    }
+
+    .container .res1 img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        margin-top: 0%;
+        border-radius: 20px;
+        /* margin-left: 50%; */
+        /* animation: zoom-out 3s linear infinite; */
+
+    }
+
+    .container .res2 img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        margin-top: 0%;
+        border-radius: 20px;
+        /* margin-left: 50%; */
+        /* animation: zoom-out 3s linear infinite; */
+
+    }
+
+    .container .int {
+        animation: slide1 13s linear infinite;
+    }
+
+
+    .container .int1 {
+        animation: slide2 13s linear infinite;
+    }
+
+    .container .int2 {
+        animation: slide3 13s linear infinite;
+    }
+
+    .container .int3 {
+        animation: slide4 13s linear infinite;
+    }
+
+    .container .int4 {
+        animation: slide5 13s linear infinite;
+    }
+
+    .container .res1 {
+        animation: slide6 13s linear infinite;
+    }
+
+    .container .res2 {
+        animation: slide7 13s linear infinite;
+    }
+
+    @keyframes slide1 {
+        0% {
+            visibility: visible;
+        }
+
+        16.66% {
+            visibility: hidden;
+        }
+
+        33.32% {
+            visibility: hidden;
+        }
+
+        49.98% {
+            visibility: hidden;
+        }
+
+        66.64% {
+            visibility: hidden;
+        }
+
+        83.32% {
+            visibility: hidden;
+        }
+
+        100% {
+            visibility: hidden;
+        }
+    }
+
+    @keyframes slide2 {
+        0% {
+            visibility: hidden;
+        }
+
+        16.66% {
+            visibility: visible;
+        }
+
+        33.32% {
+            visibility: hidden;
+        }
+
+        49.98% {
+            visibility: hidden;
+        }
+
+        66.64% {
+            visibility: hidden;
+        }
+
+        83.32% {
+            visibility: hidden;
+        }
+
+        100% {
+            visibility: hidden;
+        }
+    }
+
+    @keyframes slide3 {
+        0% {
+            visibility: hidden;
+        }
+
+        16.66% {
+            visibility: hidden;
+        }
+
+        33.32% {
+            visibility: visible;
+        }
+
+        49.98% {
+            visibility: hidden;
+        }
+
+        66.64% {
+            visibility: hidden;
+        }
+
+        83.32% {
+            visibility: hidden;
+        }
+
+        100% {
+            visibility: hidden;
+        }
+    }
+
+    @keyframes slide4 {
+        0% {
+            visibility: hidden;
+        }
+
+        16.66% {
+            visibility: hidden;
+        }
+
+        33.32% {
+            visibility: hidden;
+        }
+
+        49.98% {
+            visibility: visible;
+        }
+
+        66.64% {
+            visibility: hidden;
+        }
+
+        83.32% {
+            visibility: hidden;
+        }
+
+        100% {
+            visibility: hidden;
+        }
+    }
+
+    @keyframes slide5 {
+        0% {
+            visibility: hidden;
+        }
+
+        16.66% {
+            visibility: hidden;
+        }
+
+        33.32% {
+            visibility: hidden;
+        }
+
+        49.98% {
+            visibility: hidden;
+        }
+
+        66.64% {
+            visibility: visible;
+        }
+
+        83.32% {
+            visibility: hidden;
+        }
+
+        100% {
+            visibility: hidden;
+        }
+    }
+
+    @keyframes slide6 {
+        0% {
+            visibility: hidden;
+        }
+
+        16.66% {
+            visibility: hidden;
+        }
+
+        33.32% {
+            visibility: hidden;
+        }
+
+        49.98% {
+            visibility: hidden;
+        }
+
+        66.64% {
+            visibility: hidden;
+        }
+
+        83.32% {
+            visibility: visible;
+        }
+
+        100% {
+            visibility: hidden;
+        }
+    }
+
+    @keyframes slide7 {
+        0% {
+            visibility: hidden;
+        }
+
+        16.66% {
+            visibility: hidden;
+        }
+
+        33.32% {
+            visibility: hidden;
+        }
+
+        49.98% {
+            visibility: hidden;
+        }
+
+        66.64% {
+            visibility: hidden;
+        }
+
+        83.32% {
+            visibility: hidden;
+        }
+
+        100% {
+            visibility: visible;
+        }
+    }
+
+    .b2 {
+        margin-right: 50%;
+        margin-top: 1%;
+        font-size: 20px;
+    }
+</style>
+
+<body>
+    <center>
+        <h1>Gavi Forest</h1>
+    </center>
+    <br>
+    <span>
+        <img src="img/g3.jpg" alt="" style="width:50% ;">
+    </span>
+    <p class="side">
+        <b>Gavi Forest: Explore The Lesser Known Forest That Offers You A Peaceful Getaway From Everyday Life</b>
+        <br>
+        A village in Pathanamthitta district of Kerala, deep inside the Ranni reserve forest, Gavi is a beautiful
+        village that offers you a peaceful getaway from the city life and your daily grind. The village is surrounded by
+        Cardamom plantations which the KFDC (Kerala Forest Development Corporation) looks after. An ecotourism program
+        is managed and offered to visitors by KFDC which includes various activities such as boating, trekking and a
+        Jeep Safari at the beautiful destination
+        <br>
+        <b> About Gavi Forest</b><br>
+        If you are a nature-enthusiast, a wildlife lover or just simply want to freshen up your mind and take a break
+        from the monotony of your daily life then a tour to Gavi Forest is all that you were looking <br>
+
+    </p>
+
+    <p class="b1">
+        <b> Gavi Forest: Wildlife</b> <br><br>
+        A part of the Periyar Tiger Reserve and covering a part of the large, continuous forest from Thekkady to
+        Agasthyarkoodam forests in Trivandrum district, Gavi has a variety of more than 200 birds and over 35 mammals.
+        Some of these birds are: White bellied fishing eagle,blue winged parakeet, malabar whistling thrush, white
+        shouldered kite, crested serpent eagle, forest eagle owl, bulbuls, kingfishers and more. The mammals include
+        elephant, tiger, Indian giant squirrel, jungle cat, sloth bear, Nilgiri Tahr and barking dear among others. Gavi
+        is also a home to over 150 species of butterflies and 40 species of reptiles. Not just this, the forest also has
+        140 species of orchids and 170 species of grass.
+        <br><br>
+        <b>Things To Do at Gavi Forest</b><br>
+        A trek to Gavi usually takes 2 to 3 hours. There are multiple routes that you can take. A trekking path of
+        approximately 25 km goes in and around Gavi. Provided you take a silent walk you will come across a wide variety
+        of wildlife. A tip for you is, always follow your guide’s instructions because Elephants can be really dangerous
+        if you are too close to them. <br>
+
+        Suggested Read: Monsoon In Kerala: Explore The Coastal Gem Like Never Before In 2022! <br>
+    </p>
+    <div class="container">
+        <div class="int">
+
+        </div>
+        <div class="int1">
+            <img src="img/g1.webp" alt="">
+        </div>
+
+        <div class=" int2">
+            <img src="img/g4.jpg" alt="">
+        </div>
+
+        <div class="int3">
+            <img src="img/g3.jpg" alt="">
+        </div>
+
+        <div class="int4">
+            <img src="img/g (1).jpg" alt="">
+        </div>
+
+        <div class="res1">
+            <img src="img/g (2).jpg" alt="">
+        </div>
+
+        <div class="res2">
+            <img src="img/g (3).jpg" alt="">
+        </div>
+
+    </div>
+    <p class="b2">
+        <b>Safety measures</b> <br>
+        It is therefore important to consider your personal safety when you visit a forest. Your skills, ability,
+        knowledge, equipment and preparation are very important. For your safety: <br>
+
+        take note of weather conditions and forecasts <br>
+        make sure you are properly prepared, equipped and clothed for the terrain and your activity <br>
+        observe all notices, signs and grading of trails as they show the expected levels of difficulty <br>
+        follow any instructions and advice given by forestry staff <br>
+        tell others of your intended route and your estimated time of return <br>
+        make sure all children are properly supervised <br>
+        keep your distance from work sites and obey all signs <br>
+        do not approach any working machinery <br>
+        do not climb on timber stacks - they can be unstable and may move if disturbed <br>
+    </p>
+</body>
+
+</html>

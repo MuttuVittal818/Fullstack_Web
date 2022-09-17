@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+        background-color: pink;
+        ;
+    }
+
+    span img {
+        border-radius: 25px;
+        box-shadow: 5px 5px 10px black;
+    }
+
+    .side {
+        margin-left: 55%;
+        margin-top: -38%;
+        font-size: 20px;
+
+    }
+
+    .b1 {
+        font-size: 20px;
+        margin-top: 25px;
+    }
+
+    .container {
+        width: 45%;
+        height: 70%;
+        background-color: rgba(126, 144, 202, 0.72);
+        position: absolute;
+        top: 60%;
+        margin-top: 37%;
+        margin-left: 53%;
+        margin-right: 0%;
+        box-shadow: 1px 2px 10px black;
+        border-radius: 20px;
+        /* box-shadow: (horizontal(left-right))(vertical(top-right))(amount of blur)(color); */
+        /* top: 50%;
+        left: 50%;
+        bottom: 30%;
+        transform: translate(-50%, -50%); */
+    }
+
+    .container .int1 {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        /* left: 50%;
+        top: 50%; */
+        margin-top: 0%;
+        /* margin-left: 100%; */
+        color: black;
+        border-radius: 20px;
+        box-shadow: 1px 2px 10px black;
+    }
+
+
+    .container .int1 img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        margin-top: 0%;
+        margin-left: 0%;
+        border-radius: 20px;
+        /* animation: zoom-out 3s linear infinite; */
+
+    }
+
+    .container .int2 img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        margin-top: 0%;
+        border-radius: 20px;
+        /* margin-left: 50%; */
+        /* animation: zoom-out 3s linear infinite; */
+
+    }
+
+    .container .int3 img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        margin-top: 0%;
+        border-radius: 20px;
+        /* margin-left: 50%; */
+        /* animation: zoom-out 3s linear infinite; */
+
+    }
+
+    .container .int4 img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        margin-top: 0%;
+        border-radius: 20px;
+        /* margin-left: 50%; */
+        /* animation: zoom-out 3s linear infinite; */
+
+    }
+
+    .container .res1 img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        margin-top: 0%;
+        border-radius: 20px;
+        /* margin-left: 50%; */
+        /* animation: zoom-out 3s linear infinite; */
+
+    }
+
+    .container .res2 img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        margin-top: 0%;
+        border-radius: 20px;
+        /* margin-left: 50%; */
+        /* animation: zoom-out 3s linear infinite; */
+
+    }
+
+    .container .int {
+        animation: slide1 13s linear infinite;
+    }
+
+
+    .container .int1 {
+        animation: slide2 13s linear infinite;
+    }
+
+    .container .int2 {
+        animation: slide3 13s linear infinite;
+    }
+
+    .container .int3 {
+        animation: slide4 13s linear infinite;
+    }
+
+    .container .int4 {
+        animation: slide5 13s linear infinite;
+    }
+
+    .container .res1 {
+        animation: slide6 13s linear infinite;
+    }
+
+    .container .res2 {
+        animation: slide7 13s linear infinite;
+    }
+
+    @keyframes slide1 {
+        0% {
+            visibility: visible;
+        }
+
+        16.66% {
+            visibility: hidden;
+        }
+
+        33.32% {
+            visibility: hidden;
+        }
+
+        49.98% {
+            visibility: hidden;
+        }
+
+        66.64% {
+            visibility: hidden;
+        }
+
+        83.32% {
+            visibility: hidden;
+        }
+
+        100% {
+            visibility: hidden;
+        }
+    }
+
+    @keyframes slide2 {
+        0% {
+            visibility: hidden;
+        }
+
+        16.66% {
+            visibility: visible;
+        }
+
+        33.32% {
+            visibility: hidden;
+        }
+
+        49.98% {
+            visibility: hidden;
+        }
+
+        66.64% {
+            visibility: hidden;
+        }
+
+        83.32% {
+            visibility: hidden;
+        }
+
+        100% {
+            visibility: hidden;
+        }
+    }
+
+    @keyframes slide3 {
+        0% {
+            visibility: hidden;
+        }
+
+        16.66% {
+            visibility: hidden;
+        }
+
+        33.32% {
+            visibility: visible;
+        }
+
+        49.98% {
+            visibility: hidden;
+        }
+
+        66.64% {
+            visibility: hidden;
+        }
+
+        83.32% {
+            visibility: hidden;
+        }
+
+        100% {
+            visibility: hidden;
+        }
+    }
+
+    @keyframes slide4 {
+        0% {
+            visibility: hidden;
+        }
+
+        16.66% {
+            visibility: hidden;
+        }
+
+        33.32% {
+            visibility: hidden;
+        }
+
+        49.98% {
+            visibility: visible;
+        }
+
+        66.64% {
+            visibility: hidden;
+        }
+
+        83.32% {
+            visibility: hidden;
+        }
+
+        100% {
+            visibility: hidden;
+        }
+    }
+
+    @keyframes slide5 {
+        0% {
+            visibility: hidden;
+        }
+
+        16.66% {
+            visibility: hidden;
+        }
+
+        33.32% {
+            visibility: hidden;
+        }
+
+        49.98% {
+            visibility: hidden;
+        }
+
+        66.64% {
+            visibility: visible;
+        }
+
+        83.32% {
+            visibility: hidden;
+        }
+
+        100% {
+            visibility: hidden;
+        }
+    }
+
+    @keyframes slide6 {
+        0% {
+            visibility: hidden;
+        }
+
+        16.66% {
+            visibility: hidden;
+        }
+
+        33.32% {
+            visibility: hidden;
+        }
+
+        49.98% {
+            visibility: hidden;
+        }
+
+        66.64% {
+            visibility: hidden;
+        }
+
+        83.32% {
+            visibility: visible;
+        }
+
+        100% {
+            visibility: hidden;
+        }
+    }
+
+    @keyframes slide7 {
+        0% {
+            visibility: hidden;
+        }
+
+        16.66% {
+            visibility: hidden;
+        }
+
+        33.32% {
+            visibility: hidden;
+        }
+
+        49.98% {
+            visibility: hidden;
+        }
+
+        66.64% {
+            visibility: hidden;
+        }
+
+        83.32% {
+            visibility: hidden;
+        }
+
+        100% {
+            visibility: visible;
+        }
+    }
+
+    .b2 {
+        margin-right: 50%;
+        margin-top: 1%;
+        font-size: 20px;
+    }
+</style>
+
+<body>
+    <center>
+        <h1>Yaganti</h1>
+    </center>
+    <br>
+    <span>
+        <img src="img/y.jpg" alt="" style="width:50% ;">
+    </span>
+    <p class="side">
+        <b>Yaganti Temple</b>
+        <br>
+        Yaganti Temple is dedicated to Lord Siva, located in Kurnool district. Sri Veerabhadra Swamy is said to be the
+        Protector for this temple. Neganti is the actual name of this place, which means ‘I Saw’, as time passes by
+        locals started calling by Yaganti.
+        <br>
+        <br>
+        <b>Yaganti Temple Legendsbr</b> <br>
+        While returning from The North, Sage Agastya came across Yaganti and impressed with the natural beauty around
+        and thought of installing Lord Venkateswara Idol here. After a little search, he was able to find Vishnu’s idol
+        in a cave nearby and did all the rituals prior to installation. At the time of installation, Sage Agastya
+        noticed that the Idol’s toenail was broken and stopped the installation. Agastya Rishi was upset and did penance
+        to know the reason. Lord Siva appeared before him and told him that this place suits for a Saiva Kshetra and
+        that is why he was not able to install the Idol. Lord Siva self-manifested here as Ardhanareswara ( Lord Siva
+        occupies half of the body and another half will be of Goddess Parvathi) on request of Sage Agastya. Lord Siva is
+        here known by Uma Maheswara.
+    </p>
+
+    <p class="b1">
+        Another version of the story is, there lived a Siva’s ardent devotee by name Chitteppa. For whom Lord appeared
+        in the form of a Tiger, knowing this, he started shouting as ‘Neganti ni Shiva nu Neganti ni’ which means I saw
+        Siva I saw)
+        <br>
+        <br>
+        <b>Yaganti Temple Crow’s Story</b>
+        <br>
+        Once it happened Demon Kakasura in the form of a crow, tried to disturb Sage Agatsya’s meditation. Angered Sage
+        passed the decree that no crows should be seen near Yaganti.
+        <br>
+        <br>
+        <b>Yaganti Temple History</b><br>
+        This temple was built during the 5th and 6th century and was patronized by Kings from Pallavas, Cholas, and
+        Chalukyas. <br>
+
+        Temple was renovated by the kings Harihara and Bukka Raya from Vijayanagara Dynasty. This temple had a glorious
+        time during the 15th century.
+
+    </p>
+    <div class="container">
+        <div class="int">
+
+        </div>
+        <div class="int1">
+            <img src="img/y1.jpg" alt="">
+        </div>
+
+        <div class=" int2">
+            <img src="img/y2.jpg" alt="">
+        </div>
+
+        <div class="int3">
+            <img src="img/y3.jpg" alt="">
+        </div>
+
+        <div class="int4">
+            <img src="img/y4.jpg" alt="">
+        </div>
+
+        <div class="res1">
+            <img src="img/y5.jpg" alt="">
+        </div>
+
+        <div class="res2">
+            <img src="img/y6.jpg" alt="">
+        </div>
+
+    </div>
+    <p class="b2">
+        <b>Safety measures</b>
+        <br>
+        <br>
+        <b>Transportation </b> <br>
+        Yaganti is located in the Nandyal District in the state of Andhra Pradesh, India, approximately 100 km from the
+        city of Kurnool. The temple is 14 km west of Banaganapalle (Mandal headquarters) on the Banaganapalle-Peapully
+        road.we can reach the temple even from the Historic site Belum caves in 1.5hrs and measures a distance of 45 km.
+        <br>
+        <b>References</b>
+        <br>
+        <a href="">"Ap Tourism"</a> . Aptdc.gov.in. Retrieved 28 December 2016. <br>
+        <a href="">"Pilgrim rush peaks in major temples"</a> . The Hindu. 6 March 2016. Retrieved 28 December 2016. <br>
+        <a href=""> "A pilgrimage tour to the pious city of Kurnool in Andhra Pradesh! - Nativeplanet"</a>.
+        M.dailyhunt.in. Retrieved 28
+        December 2016. <br>
+        <a href="">"Unsolved Mysteries and Indian Shrines"</a> . Speakingtree.in. 14 January 2014. Retrieved 28 December
+        2016. <br>
+
+    </p>
+</body>
+
+</html>
